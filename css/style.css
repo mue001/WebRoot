@@ -2,6 +2,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(239, 239, 239);
     color:rgb(95, 58, 58);
+    max-width: 140vh;
+    margin: auto;
 }
 
 #name{
@@ -97,7 +99,53 @@ a::before {
     transform: scaleX(1);
   }
 
+  /* --------------MobileResources--------------- */
+#list-container{
+    max-width: 120vh;
+    background-color:  white;
+    margin: 3rem auto;
+    padding-right: 1.5rem;
+}
 
+li{
+    padding: 1rem;
+    border-bottom: 2px solid;
+    border-color: rgb(248, 169, 169);
+}
+
+li:last-of-type{
+    padding: 1rem;
+    border-bottom:none;
+}
+
+.comment{
+    background-color: rgb(250, 227, 227);
+    padding: 1rem;
+}
+
+p.rating{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.rating-star1{
+    color: rgb(248, 246, 92);
+    -webkit-text-stroke: 1px rgb(122, 60, 60); 
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.rating-star2{
+    color:  #f0dbdf;
+    -webkit-text-stroke: 1px rgb(122, 60, 60); 
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+
+#sensor-review-title{
+    margin-top: 1rem;
+}
 
 /*
 @media only screen and (max-width: 576px) {
